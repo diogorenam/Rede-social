@@ -1,0 +1,16 @@
+*{
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  background-color: #3a373731;
+}
+img{
+  position:absolute;
+  margin-top: 63.7px;
+  width: 92px;
+  height: 92px;
+  margin-left: 636.7px;
+  border-radius:200px;
+  border: 4px solid hsla(228, 81%, 59%, 1);
+}
