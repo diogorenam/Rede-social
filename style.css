@@ -12,19 +12,35 @@ body.dark-blue{
   --text-color: #EDF2FF;
   --text-list:#4263EB;
   --hover-color:#364FC7;
-  
+  --text-color-header:#EDF2FF;
+  --fotter-color:#EDF2FF;
 }
 body.dark-pink{
   background:#1F000B;
   --text-color:#EDF2FF;
   --text-list:#D6336C;
   --hover-color:#A61E4D;
+  --text-color-header:#EDF2FF;
+  --fotter-color:#EDF2FF;
+  
 }
 body.light-pink{
   background: #FFF0F6;
   --text-color:#1F000B;
   --text-list:#D6336C;;
   --hover-color:#A61E4D;
+  --text-color-header:#1F000B;
+  --fotter-color:#1F000B;
+  
+}
+body.dark-yellow{
+  background: #191816;
+  --text-color:black;
+  --text-list:#FFC632;
+  --hover-color:#FCB632;
+  --text-color-header:white;
+  --fotter-color:#EDF2FF;
+  
 }
 body{
   background:#EDF2FF;
@@ -54,12 +70,14 @@ ul{
   list-style: none;
 }
 h1{
+  color: var(--text-color-header);
   margin-top: 24px;
   margin-bottom: 8px;
   font-size: 32px;
  
 }
 p{
+  color: var(--text-color-header);
   margin-bottom: 48px;
   font-family: 'Roboto Mono', monospace;
   font-size: 18px;
@@ -86,11 +104,11 @@ ul li a:hover{
 footer{
   font-size: 12px;
   margin-top: 48px;
-  color: rgba(0, 8, 47, 0.6);
+  color: var(--fotter-color);
   font-weight: 500;
   opacity: 0.9;
   transition: opacity 200ms;
-  color: var(--text-color);
+  color: var(--fotter-color);
 }
 
 footer:hover{
